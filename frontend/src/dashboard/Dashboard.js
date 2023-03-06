@@ -88,7 +88,7 @@ function DashboardContent() {
             noWrap
             sx={{ flexGrow: 1 }}
           >
-            Dashboard
+            Product list
           </Typography>
         </Toolbar>
       </AppBar>
