@@ -20,6 +20,7 @@ import Divider from "@mui/material/Divider";
 import { mainListItems, secondaryListItems } from "./listItems";
 // import Deposits from "./Deposits";
 // import Orders from "./Orders";
+import App from "./Product";
 
 const drawerWidth = 240;
 
@@ -102,12 +103,14 @@ function DashboardContent() {
           }}
         ></Toolbar>
         <Divider />
+
         <List component="nav">
           {mainListItems}
           <Divider sx={{ my: 1 }} />
           {secondaryListItems}
         </List>
       </Drawer>
+      <App></App>
     </ThemeProvider>
   );
 }
